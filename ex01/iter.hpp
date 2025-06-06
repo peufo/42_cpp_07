@@ -3,7 +3,6 @@
 
 #include <cstddef>
 #include <iostream>
-#include <type_traits>
 
 template <typename T>
 void iter(T *arr, size_t len, void (*func)(T &))
